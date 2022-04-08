@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+
+/* empty container */
+
+.container {
+  border: 2px solid ghostwhite;
+  background: ghostwhite;
+  min-height: 100vh;
+  width: 70vw;
+  margin: auto;
+}
+
+/* Quotation */
+
+.quotation {
+  font-family: "Lobster", cursive;
+  font-weight: 500;
+  font-size: 1.5em;
+  letter-spacing: 1px;
+  width: 67vw;
+  margin: auto;
+  padding-top: 30px;
+}
+
+/* header */
+
+.timeline {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 3.5em;
+  color: #ececec;
+  padding-left: 6em;
+}
+
+/* MAIN CONTENT */
+
+.main-content {
+  width: 50vw;
+}
+
+.main-content .date {
+  display: inline-block;
+  width: 6em;
+}
+
+.main-content .time {
+}
+
+/* Quotation number-2 */
+.extra {
+  text-align: center;
+  width: 80vw;
+  border: 2px solid #ececec;
+  background: #ececec;
+  padding: 5px 7em;
+}
