@@ -31,20 +31,34 @@
   font-size: 3.5em;
   color: #ececec;
   padding-left: 6em;
+  width: 100%;
 }
 
 /* MAIN CONTENT */
 
 .main-content {
   width: 50vw;
+  display: inline-block;
 }
 
-.main-content .date {
+/* .main-content .date {
   display: inline-block;
   width: 6em;
-}
+} */
 
 .main-content .time {
+}
+
+/* Second main content */
+
+.second-content {
+  display: inline-block;
+}
+
+/* Image */
+
+img {
+  height: 230px;
 }
 
 /* Quotation number-2 */
