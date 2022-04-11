@@ -22,7 +22,7 @@
         <form action="">
 
 
-            <p id="quote">
+            <p id="quote" class="quote">
                 Tell us something positive that happened to you today.
             </p>
 
@@ -32,7 +32,8 @@
 
             <div class="group">
                 <label for="name">
-                    Name<input type="text" name="name" id="name" placeholder="Enter your name">
+                    <span class="left">Name </span> <input type="text" name="name" id="name"
+                        placeholder="Enter your name" class="right">
                 </label>
             </div>
 
@@ -40,7 +41,8 @@
 
             <div class="group">
                 <label for="email">
-                    Email <input type="email" name="email" id="email" placeholder="Enter your name">
+                    <span class="left">Email </span> <input type="email" name="email" id="email"
+                        placeholder="Enter your name" class="right">
                 </label>
             </div>
 
@@ -48,8 +50,8 @@
 
             <div class="group">
                 <label for="rate">
-                    On a scale of 1-10, how good was it? <input type="number" name="number" id="rate"
-                        placeholder="Enter a number between 1">
+                    <span class="left"> On a scale of 1-10, how good was it? </span> <input type="number" name="number"
+                        id="rate" placeholder="Enter a number between 1" class="right">
                 </label>
             </div>
 
@@ -57,8 +59,8 @@
 
             <div class="group">
                 <label for="place">
-                    Where did it happen?
-                    <select name="place" id="place">
+                    <span class="left"> Where did it happen? </span>
+                    <select name="place" id="place" class="right">
                         <option value="At home">At home</option>
                         <option value="On my commute">On my commute</option>
                         <option value="At work">At work</option>
@@ -69,27 +71,27 @@
 
             <!-- time -->
 
-            <div class="group">
+            <div>
                 <label for="time">
-                    At what time of day did it happen? <br>
-                    <input type="radio" name="time" id="time" value="morning"> Morning <br>
-                    <input type="radio" name="time" id="time" value="afternoon"> Afternoon <br>
-                    <input type="radio" name="time" id="time" value="evening"> Evening
+                    <span class="left">At what time of day did it happen? </span>
+                    <input type="radio" name="time" id="time" value="morning" class="right"> Morning
+                    <input type="radio" name="time" id="time" value="afternoon" class="right"> Afternoon
+                    <input type="radio" name="time" id="time" value="evening" class="right"> Evening
                 </label>
             </div>
 
             <!-- emotions -->
 
-            <div class="group">
+            <div>
+                <span class="left">What emotions did you experience?
+                    (Select all that apply)</span>
                 <label for="emotions">
-                    What emotions did you experience?
-                    (Select all that apply) <br>
-                    <input type="checkbox" name="emotions" id="emotions" value="excited"> Excited <br>
-                    <input type="checkbox" name="emotions" id="emotions" value="elated"> Elated <br>
-                    <input type="checkbox" name="emotions" id="emotions" value="humbled"> Humbled <br>
-                    <input type="checkbox" name="emotions" id="emotions" value="loved"> Loved <br>
-                    <input type="checkbox" name="emotions" id="emotions" value="enthusiastic"> Enthusiastic <br>
-
+                    <input type="checkbox" name="emotions" id="emotions" value="excited" class="right">> Excited
+                    <input type="checkbox" name="emotions" id="emotions" value="elated" class="right">> Elated
+                    <input type="checkbox" name="emotions" id="emotions" value="humbled" class="right">> Humbled
+                    <input type="checkbox" name="emotions" id="emotions" value="loved" class="right">> Loved
+                    <input type="checkbox" name="emotions" id="emotions" value="enthusiastic" class="right">>
+                    Enthusiastic
                 </label>
             </div>
 
@@ -97,9 +99,9 @@
 
             <div class="group">
                 <label for="content">
-                    Please describe your positive experience.
+                    <span class="left">Please describe your positive experience.</span>
                     <textarea name="content" id="content" cols="30" rows="5"
-                        placeholder="Enter your experience here"></textarea>
+                        placeholder="Enter your experience here...." class="right"></textarea>
                 </label>
             </div>
 
