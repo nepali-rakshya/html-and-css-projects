@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Good Vibes Form</title>
+    <link rel="stylesheet" href="./css folder/index.css">
+</head>
+
+<body>
+    <!-- title of the page -->
+
+    <div class="title">
+        <h1>good vibes</h1>
+    </div>
+
+    <!-- main body -->
+
+    <div class="form-section">
+        <form action="">
+
+
+            <p id="quote">
+                Tell us something positive that happened to you today.
+            </p>
+
+            <!-- form part -->
+
+            <!-- name -->
+
+            <div class="group">
+                <label for="name">
+                    Name<input type="text" name="name" id="name" placeholder="Enter your name">
+                </label>
+            </div>
+
+            <!-- email -->
+
+            <div class="group">
+                <label for="email">
+                    Email <input type="email" name="email" id="email" placeholder="Enter your name">
+                </label>
+            </div>
+
+            <!-- rate -->
+
+            <div class="group">
+                <label for="rate">
+                    On a scale of 1-10, how good was it? <input type="number" name="number" id="rate"
+                        placeholder="Enter a number between 1">
+                </label>
+            </div>
+
+            <!-- place -->
+
+            <div class="group">
+                <label for="place">
+                    Where did it happen?
+                    <select name="place" id="place">
+                        <option value="At home">At home</option>
+                        <option value="On my commute">On my commute</option>
+                        <option value="At work">At work</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </label>
+            </div>
+
+            <!-- time -->
+
+            <div class="group">
+                <label for="time">
+                    At what time of day did it happen? <br>
+                    <input type="radio" name="time" id="time" value="morning"> Morning <br>
+                    <input type="radio" name="time" id="time" value="afternoon"> Afternoon <br>
+                    <input type="radio" name="time" id="time" value="evening"> Evening
+                </label>
+            </div>
+
+            <!-- emotions -->
+
+            <div class="group">
+                <label for="emotions">
+                    What emotions did you experience?
+                    (Select all that apply) <br>
+                    <input type="checkbox" name="emotions" id="emotions" value="excited"> Excited <br>
+                    <input type="checkbox" name="emotions" id="emotions" value="elated"> Elated <br>
+                    <input type="checkbox" name="emotions" id="emotions" value="humbled"> Humbled <br>
+                    <input type="checkbox" name="emotions" id="emotions" value="loved"> Loved <br>
+                    <input type="checkbox" name="emotions" id="emotions" value="enthusiastic"> Enthusiastic <br>
+
+                </label>
+            </div>
+
+            <!-- content -->
+
+            <div class="group">
+                <label for="content">
+                    Please describe your positive experience.
+                    <textarea name="content" id="content" cols="30" rows="5"
+                        placeholder="Enter your experience here"></textarea>
+                </label>
+            </div>
+
+            <!-- submit button -->
+
+            <div class="submit">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+
+</body>
+
+</html>
