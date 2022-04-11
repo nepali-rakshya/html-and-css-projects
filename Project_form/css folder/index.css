@@ -21,23 +21,23 @@ body {
 /* main body */
 
 .form-section {
-  width: 50em;
+  width: 60em;
   margin: auto;
-  margin-top: 30px;
+  margin-top: 50px;
   margin-bottom: 120px;
   text-align: center;
   border: 2px solid #f3f3f3;
   background-color: #f3f3f3;
   border-radius: 10px;
-  padding: 0 90px 0 90px;
+  padding: 50px 50px;
 }
 
 /* quote */
 
 div #quote {
-  font-size: 25px;
+  font-size: 30px;
   word-spacing: 1px;
-  line-height: 3em;
+  margin-bottom: 40px;
 }
 
 /* form part  */
@@ -62,6 +62,6 @@ div #quote {
 
 .center {
   text-align: left;
-  padding: 40px 20px 40px 20px;
+  padding: 10px 20px 20px 0px;
   font-size: 20px;
 }

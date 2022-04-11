@@ -21,10 +21,10 @@
     <div class="form-section">
         <form action="">
 
-
             <p id="quote">
                 Tell us something positive that happened to you today.
             </p>
+
 
             <!-- form part -->
 
@@ -32,9 +32,10 @@
 
             <label for="name" class="left"> Name </label>
             <div class="right">
-                <input type="text" name="name" id="name" placeholder="Enter your name" class="right">
+                <input style="border: 2px solid #c0c0c0; padding: 10px; border-radius: 4px;" type="text" name="name"
+                    id="name" placeholder="Enter your name" class="right">
             </div>
-
+            <br><br><br>
 
             <!-- email -->
 
@@ -42,8 +43,10 @@
                 Email
             </label>
             <div class="right">
-                <input type="email" name="email" id="email" placeholder="Enter your name" class="right">
+                <input style="border: 2px solid #c0c0c0; padding: 10px; border-radius: 4px;" type="email" name="email"
+                    id="email" placeholder="Enter your name" class="right">
             </div>
+            <br><br><br>
 
             <!-- rate -->
 
@@ -51,8 +54,10 @@
                 On a scale of 1-10, how good was it?
             </label>
             <div class="right">
-                <input type="number" name="number" id="rate" placeholder="Enter a number between 1" class="right">
+                <input style="border: 2px solid #c0c0c0; padding: 10px; border-radius: 4px;" type="number" name="number"
+                    id="rate" placeholder="Enter a number between 1" class="right">
             </div>
+            <br><br><br>
 
 
             <!-- place -->
@@ -61,54 +66,59 @@
                 Where did it happen?
             </label>
             <div class="right">
-                <select name="place" id="place" class="right">
+                <select style="border: 2px solid #c0c0c0; padding: 10px; border-radius: 4px;" name="place" id="place"
+                    class="right">
                     <option value="At home">At home</option>
                     <option value="On my commute">On my commute</option>
                     <option value="At work">At work</option>
                     <option value="Other">Other</option>
                 </select>
             </div>
+            <br><br><br>
 
             <!-- time -->
 
             <label for="time" class="left">
-                <span class="left">At what time of day did it happen? </span>
-            </label>
+                At what time of day did it happen? </label>
             <div class="right center">
                 <input type="radio" name="time" id="time" value="morning"> Morning <br>
                 <input type="radio" name="time" id="time" value="afternoon"> Afternoon <br>
                 <input type="radio" name="time" id="time" value="evening"> Evening <br>
             </div>
+            <br><br><br>
 
             <!-- emotions -->
 
             <label class="left">
-                <span class="left">What emotions did you experience?
-                    <br> (Select all that apply)</span>
+                What emotions did you experience?(Select all that apply)
             </label>
             <div class="right center">
                 <input type="checkbox" name="emotions" id="emotions" value="excited"> Excited <br>
                 <input type="checkbox" name="emotions" id="emotions" value="elated"> Elated <br>
                 <input type="checkbox" name="emotions" id="emotions" value="humbled"> Humbled <br>
                 <input type="checkbox" name="emotions" id="emotions" value="loved"> Loved <br>
-                <input type="checkbox" name="emotions" id="emotions" value="enthusiastic">Enthusiastic <br>
+                <input type="checkbox" name="emotions" id="emotions" value="enthusiastic"> Enthusiastic <br>
             </div>
+            <br><br><br>
 
             <!-- content -->
 
             <label for="content" class="left">
-                <span class="left">Please describe your positive experience.</span>
+                Please describe your positive experience.
             </label>
             <div class="right">
-                <textarea name="content" id="content" cols="30" rows="5" placeholder="Enter your experience here...."
+                <textarea style="border: 2px solid #c0c0c0; padding: 10px; border-radius: 4px;" name="content"
+                    id="content" cols="50" rows="2" placeholder="Enter your experience here...."
                     class="right"></textarea>
             </div>
+            <br><br><br>
 
             <!-- submit button -->
 
             <div class="submit">
                 <button type="submit">Submit</button>
             </div>
+
         </form>
     </div>
     <br>
