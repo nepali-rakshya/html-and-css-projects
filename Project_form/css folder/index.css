@@ -21,7 +21,7 @@ body {
 /* main body */
 
 .form-section {
-  width: 70%;
+  width: 60%;
   margin: auto;
   margin-top: 50px;
   margin-bottom: 120px;
@@ -65,6 +65,7 @@ div #quote {
   text-align: left;
   padding: 10px 20px 20px 0px;
   font-size: 20px;
+  vertical-align: top;
 }
 
 /*  submit button*/
