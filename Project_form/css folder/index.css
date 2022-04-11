@@ -23,19 +23,45 @@ body {
 .form-section {
   width: 50em;
   margin: auto;
-  margin-top: 100px;
+  margin-top: 30px;
+  margin-bottom: 120px;
   text-align: center;
   border: 2px solid #f3f3f3;
   background-color: #f3f3f3;
   border-radius: 10px;
-  margin-top: 30px;
-  padding: 50px;
+  padding: 0 90px 0 90px;
 }
 
-/* form part */
+/* quote */
 
 div #quote {
   font-size: 25px;
   word-spacing: 1px;
   line-height: 3em;
+}
+
+/* form part  */
+
+/* changes on the LEFT */
+
+.left {
+  font-size: 20px;
+  display: inline-block;
+  width: 300px;
+  text-align: left;
+}
+
+/* changes on the RIGHT */
+
+.right {
+  display: inline-block;
+  width: 250px;
+}
+
+/* centering elements */
+
+.center {
+  text-align: left;
+  padding: 40px 20px 40px 20px;
+  font-size: 20px;
 }
