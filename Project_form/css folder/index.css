@@ -34,13 +34,8 @@ body {
 
 /* form part */
 
-div .quote {
+div #quote {
   font-size: 25px;
   word-spacing: 1px;
   line-height: 3em;
-}
-
-div .group {
-  line-height: 4em;
-  font-size: 20px;
 }
