@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #a9d7e9;
+}
+
+/* title of the page */
+
+.title {
+  font-size: 1.7em;
+  text-transform: capitalize;
+  width: 500px;
+  margin: auto;
+}
+
+/* form section */
+
+.form-section {
+  width: 50em;
+  margin: auto;
+  margin-top: 100px;
+  text-align: center;
+  border: 2px solid #f3f3f3;
+  background-color: #f3f3f3;
+  border-radius: 10px;
+}
