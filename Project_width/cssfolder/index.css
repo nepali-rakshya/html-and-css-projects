@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.first {
+  display: inline-block;
+  width: 33%;
+  background-color: brown;
+}
+
+.second {
+  display: inline-block;
+  width: 33%;
+}
+
+.third {
+  display: inline-block;
+  width: 33%;
+  background-color: brown;
+}
+
+.content {
+  background: pink;
+}
