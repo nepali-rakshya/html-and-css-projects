@@ -29,11 +29,9 @@
             <!-- form part -->
 
             <!-- name -->
-
             <label for="name" class="left"> Name </label>
             <div class="right">
-                <input style="border: 2px solid #c0c0c0; padding: 10px; border-radius: 4px;" type="text" name="name"
-                    id="name" placeholder="Enter your name" class="right" required>
+                <input type="text" name="name" id="name" placeholder="Enter your name" class="input-fields" required>
             </div>
             <br><br><br>
 
@@ -43,8 +41,7 @@
                 Email
             </label>
             <div class="right">
-                <input style="border: 2px solid #c0c0c0; padding: 10px; border-radius: 4px;" type="email" name="email"
-                    id="email" placeholder="Enter your name" class="right" required>
+                <input type="email" name="email" id="email" placeholder="Enter your name" class="input-fields" required>
             </div>
             <br><br><br>
 
@@ -54,8 +51,8 @@
                 On a scale of 1-10, how good was it?
             </label>
             <div class="right">
-                <input style="border: 2px solid #c0c0c0; padding: 10px; border-radius: 4px;" type="number" name="number"
-                    id="rate" placeholder="Enter a number between 1" class="right" required>
+                <input type="number" name="number" id="rate" placeholder="Enter a number between 1" class="input-fields"
+                    required>
             </div>
             <br><br><br>
 
@@ -66,8 +63,7 @@
                 Where did it happen?
             </label>
             <div class="right">
-                <select style="border: 2px solid #c0c0c0; padding: 10px; border-radius: 4px;" name="place" id="place"
-                    class="right">
+                <select name="place" id="place" class="input-fields">
                     <option value="At home">At home</option>
                     <option value="On my commute">On my commute</option>
                     <option value="At work">At work</option>
@@ -80,10 +76,13 @@
 
             <label for="time" class="left">
                 At what time of day did it happen? </label>
-            <div class="right center">
-                <input type="radio" name="time" id="time" value="morning"> Morning <br>
-                <input type="radio" name="time" id="time" value="afternoon"> Afternoon <br>
-                <input type="radio" name="time" id="time" value="evening"> Evening <br>
+            <div class="center right">
+                <label>
+                    <input type="radio" name="time" id="time" value="morning"> Morning </label><br>
+                <label>
+                    <input type="radio" name="time" id="time" value="afternoon"> Afternoon </label> <br>
+                <label>
+                    <input type="radio" name="time" id="time" value="evening"> Evening </label><br>
             </div>
             <br><br><br>
 
@@ -93,11 +92,17 @@
                 What emotions did you experience?(Select all that apply)
             </label>
             <div class="right center">
-                <input type="checkbox" name="emotions" id="emotions" value="excited"> Excited <br>
-                <input type="checkbox" name="emotions" id="emotions" value="elated"> Elated <br>
-                <input type="checkbox" name="emotions" id="emotions" value="humbled"> Humbled <br>
-                <input type="checkbox" name="emotions" id="emotions" value="loved"> Loved <br>
-                <input type="checkbox" name="emotions" id="emotions" value="enthusiastic"> Enthusiastic <br>
+                <label>
+                    <input type="checkbox" name="emotions" id="emotions" value="excited"> Excited
+                </label><br>
+                <label>
+                    <input type="checkbox" name="emotions" id="emotions" value="elated"> Elated </label><br>
+                <label>
+                    <input type="checkbox" name="emotions" id="emotions" value="humbled"> Humbled </label><br>
+                <label>
+                    <input type="checkbox" name="emotions" id="emotions" value="loved"> Loved </label><br>
+                <label>
+                    <input type="checkbox" name="emotions" id="emotions" value="enthusiastic"> Enthusiastic </label><br>
             </div>
             <br><br><br>
 
@@ -107,9 +112,8 @@
                 Please describe your positive experience.
             </label>
             <div class="right">
-                <textarea style="border: 2px solid #c0c0c0; padding: 10px; border-radius: 4px; vertical-align: middle;"
-                    name="content" id="content" cols="50" rows="2" placeholder="Enter your experience here...."
-                    class="right"></textarea>
+                <textarea name="content" id="content" cols="50" rows="2" placeholder="Enter your experience here...."
+                    class="input-fields"></textarea>
             </div>
             <br><br><br>
 
