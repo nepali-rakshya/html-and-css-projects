@@ -47,8 +47,10 @@ div #quote {
 .left {
   font-size: 20px;
   display: inline-block;
-  width: 300px;
-  text-align: left;
+  width: 40%;
+  text-align: right;
+  padding: 5px;
+  vertical-align: top;
 }
 
 /* changes on the RIGHT */
@@ -78,4 +80,5 @@ button {
   border-radius: 5px;
   box-sizing: border-box;
   font-size: 20px;
+  opacity: 0.7;
 }
