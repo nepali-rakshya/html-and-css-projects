@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* For images */
+
+div.image1,
+.image2,
+.image3,
+.image4 {
+  min-height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  opacity: 0.7;
+}
+
+.image1 {
+  background-image: url(./images/pexels-vladislav-serov-11676075.jpg);
+}
+
+.image2 {
+  background-image: url(./images/pexels-maxime-francis-2246476.jpg);
+  min-height: 50vh;
+}
+
+.image3 {
+  background-image: url(./images/pexels-nextvoyage-5879085.jpg);
+  min-height: 50vh;
+}
+
+.image4 {
+  background-image: url(./images/pexels-vladislav-serov-11676075.jpg);
+}
+
+.title {
+  border: 2px solid #50392e;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  width: 500px;
+  padding: 20px 10px;
+  color: #fcfcfc;
+  background: #50392e;
+  word-spacing: 5px;
+  font: 5em;
+  font-family: "Open Sans", sans-serif;
+}
+
+.title2 {
+  word-spacing: 5px;
+  font: 5em;
+  font-family: "Open Sans", sans-serif;
+  color: #fcfcfc;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+}
+
+h3 {
+  padding-bottom: 20px;
+}
+
+/* For the mid text */
+
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* for first content */
+
+.section-one {
+  display: block;
+  padding: 80px;
+  font-size: 17px;
+  opacity: 0.7;
+  line-height: 1.5em;
+  word-spacing: 1px;
+  background: #f4f4f4;
+  font-family: "Roboto", sans-serif;
+}
+
+/* for second and third content */
+
+.section-two {
+  display: block;
+  padding: 80px;
+  font-size: 17px;
+  opacity: 0.9;
+  line-height: 1.5em;
+  word-spacing: 1px;
+  background: #282e34;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
