@@ -1,26 +1,28 @@
 /*  Now in order to solve this issue of spaces in 
 between and not get a fit in display
--------------> FLEX property will be used  */
+-------------> FLOAT property will be used  */
 
 * {
   margin: 0;
   padding: 0;
 }
 
+.first,
+.second,
+.third {
+  float: left;
+}
 .first {
-  display: inline-block;
   width: 33.33%;
   background-color: brown;
 }
 
 .second {
-  display: inline-block;
   background-color: pink;
-  width: 32%;
+  width: 33.33%;
 }
 
 .third {
-  display: inline-block;
   width: 33.33%;
   background-color: brown;
 }
