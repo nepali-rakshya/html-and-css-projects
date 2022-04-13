@@ -1,3 +1,7 @@
+/*  Now in order to solve this issue of spaces in 
+between and not get a fit in display
+-------------> FLEX property will be used  */
+
 * {
   margin: 0;
   padding: 0;
@@ -5,21 +9,18 @@
 
 .first {
   display: inline-block;
-  width: 33%;
+  width: 33.33%;
   background-color: brown;
 }
 
 .second {
   display: inline-block;
-  width: 33%;
+  background-color: pink;
+  width: 32%;
 }
 
 .third {
   display: inline-block;
-  width: 33%;
+  width: 33.33%;
   background-color: brown;
-}
-
-.content {
-  background: pink;
 }
