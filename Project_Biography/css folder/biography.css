@@ -37,7 +37,7 @@
 /* MAIN CONTENT */
 
 .main-content {
-  width: 50vw;
+  width: 50%;
   display: inline-block;
 }
 
@@ -48,9 +48,10 @@
 
 /* Second main content */
 
-/* .second-content {
-  display: inline-block;
-} */
+.second-content {
+  width: 50%;
+  float: right;
+}
 
 /* Image */
 
@@ -60,6 +61,7 @@ img {
 
 /* Quotation number-2 */
 .extra {
+  clear: both;
   text-align: center;
   width: 80vw;
   border: 2px solid #ececec;
