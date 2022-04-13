@@ -19,6 +19,9 @@ div.image1,
 
 .image1 {
   background-image: url(./images/pexels-vladislav-serov-11676075.jpg);
+  /* background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(./images/pexels-vladislav-serov-11676075.jpg) center/cover fixed
+      no-repeat; */
 }
 
 .image2 {
