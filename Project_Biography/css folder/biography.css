@@ -70,9 +70,9 @@ p.desc {
 
 .second-content {
   width: 305px;
-  position: relative;
-  bottom: 574px;
-  left: 1000px;
+  position: absolute;
+  top: 80px;
+  left: 800px;
 }
 
 /* Image */
