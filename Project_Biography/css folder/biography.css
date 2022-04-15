@@ -24,13 +24,15 @@
   padding-top: 30px;
 }
 
+/* *********************************************************************** */
+
 /* header */
 
 .timeline {
   font-family: "Times New Roman", Times, serif;
   font-size: 3.5em;
   color: #ececec;
-  padding-left: 6em;
+  padding-left: 3em;
   width: 100%;
 }
 
@@ -38,33 +40,58 @@
 
 .main-content {
   width: 50%;
-  display: inline-block;
+  position: relative;
+  left: 180px;
 }
 
-/* .main-content .date {
-  display: inline-block;
-  width: 6em;
-} */
+.nutshell {
+  text-align: center;
+}
+
+.table-details {
+  text-align: center;
+}
+
+span.date {
+  display: block;
+  position: relative;
+  width: 85px;
+}
+
+p.desc {
+  float: right;
+}
+
+/* ******************************************************************* */
 
 /* Second main content */
 
 .second-content {
-  width: 50%;
-  float: right;
+  clear: both;
+  width: 305px;
+  position: relative;
+  bottom: 574px;
+  left: 1000px;
 }
 
 /* Image */
 
 img {
-  height: 230px;
+  width: 300px;
 }
+
+/* ******************************************************************** */
 
 /* Quotation number-2 */
 .extra {
-  clear: both;
   text-align: center;
   width: 80vw;
   border: 2px solid #ececec;
   background: #ececec;
   padding: 5px 7em;
+}
+
+.footer {
+  position: relative;
+  bottom: 400px;
 }
