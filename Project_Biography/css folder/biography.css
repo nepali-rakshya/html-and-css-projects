@@ -56,10 +56,12 @@ span.date {
   display: block;
   position: relative;
   width: 85px;
+  clear: both;
 }
 
 p.desc {
   float: right;
+  margin: 45px;
 }
 
 /* ******************************************************************* */
@@ -67,7 +69,6 @@ p.desc {
 /* Second main content */
 
 .second-content {
-  clear: both;
   width: 305px;
   position: relative;
   bottom: 574px;
