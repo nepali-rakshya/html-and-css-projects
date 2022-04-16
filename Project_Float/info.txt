@@ -1,0 +1,5 @@
+1. When the float is applied it takes the element out of the flow and makes
+the document believe as if it has nothing now.
+
+2. So, in order to tackle that issue. Everytime we use float we need to clear
+that float. ALWAYS!!

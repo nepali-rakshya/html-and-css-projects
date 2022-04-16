@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background: #3a4444;
+  /* padding: 20px; */
+}
+
+.box {
+  width: 20%;
+  border: 2px solid lightgray;
+  color: white;
+  padding: 10px;
+}
+
+.box h2 {
+  color: #2db475;
+  text-align: center;
+  margin-bottom: 20px;
+  border-bottom: 2px solid lightgray;
+}
+
+.left {
+  float: left;
+}
+
+.clear {
+  clear: both;
+}
