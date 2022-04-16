@@ -56,7 +56,6 @@
 
 .description span {
   position: absolute;
-
   left: 0px;
 }
 
@@ -65,8 +64,7 @@
   left: 100px;
 }
 
-.description p,
-span {
+.description p {
   border-bottom: 2px solid #d1d0d0;
 }
 
