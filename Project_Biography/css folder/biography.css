@@ -57,15 +57,18 @@
 .description span {
   position: absolute;
   left: 0px;
+  width: 100px;
+  height: 40px;
+  border-top: 2px solid #d1d0d0;
 }
 
 .description p {
   position: relative;
   left: 100px;
-}
-
-.description p {
+  margin: 0px;
+  background: #f9f9f9;
   border-bottom: 2px solid #d1d0d0;
+  border-top: 2px solid #d1d0d0;
 }
 
 /* ******************************************************************* */
@@ -75,7 +78,7 @@
 .second-content {
   width: 305px;
   position: absolute;
-  top: 80px;
+  top: 100px;
   left: 830px;
 }
 
@@ -99,4 +102,5 @@ td {
   background: #ececec;
   padding: 5px 7em;
   margin-top: 50px;
+  margin-bottom: 400px;
 }
