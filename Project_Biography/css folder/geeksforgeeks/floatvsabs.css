@@ -1,9 +1,11 @@
 .div1 {
-  border: 2px solid crimson;
+  border: 5px solid crimson;
   width: 30%;
+  position: sticky;
+  top: 0px;
 }
 
 .div2 {
-  border: 2px solid green;
+  border: 5px solid green;
   width: 30%;
 }
