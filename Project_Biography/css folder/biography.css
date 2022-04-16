@@ -39,7 +39,7 @@
 /* MAIN CONTENT */
 
 .main-content {
-  width: 50%;
+  width: 690px;
   position: relative;
   left: 180px;
 }
@@ -52,11 +52,22 @@
   text-align: center;
 }
 
-span.date {
-  display: block;
+/* Positioning of the details */
+
+.description span {
+  position: absolute;
+
+  left: 0px;
+}
+
+.description p {
   position: relative;
-  width: 85px;
-  clear: both;
+  left: 100px;
+}
+
+.description p,
+span {
+  border-bottom: 2px solid #d1d0d0;
 }
 
 /* ******************************************************************* */
@@ -67,13 +78,17 @@ span.date {
   width: 305px;
   position: absolute;
   top: 80px;
-  left: 800px;
+  left: 830px;
 }
 
 /* Image */
 
 img {
   width: 300px;
+}
+
+td {
+  border-bottom: 2px solid #d1d0d0;
 }
 
 /* ******************************************************************** */
@@ -85,5 +100,5 @@ img {
   border: 2px solid #ececec;
   background: #ececec;
   padding: 5px 7em;
-  margin: 40px auto;
+  margin-top: 50px;
 }
