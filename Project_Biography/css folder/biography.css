@@ -59,11 +59,6 @@ span.date {
   clear: both;
 }
 
-p.desc {
-  float: right;
-  margin: 45px;
-}
-
 /* ******************************************************************* */
 
 /* Second main content */
@@ -90,9 +85,5 @@ img {
   border: 2px solid #ececec;
   background: #ececec;
   padding: 5px 7em;
-}
-
-.footer {
-  position: relative;
-  bottom: 400px;
+  margin: 40px auto;
 }
