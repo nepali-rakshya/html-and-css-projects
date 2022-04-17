@@ -3,3 +3,28 @@ the document believe as if it has nothing now.
 
 2. So, in order to tackle that issue. Everytime we use float we need to clear
 that float. ALWAYS!!
+
+***************************************************************************
+
+https://www.digitalocean.com/community/tutorials/css-understanding-css-float
+
+
+RULES FOR USING FLOAT 
+
+1. Use float for its intended purpose only.
+
+    Use float only when you want to push aside some element into the corner and 
+    you want it to be filled with content. If any of these criteria 
+    are missing, you shouldn't be using it, use some other css properties.
+
+
+2. Parents containing floated elements will collapse
+
+    This was the main issue I was looking for!!!
+    When you use float then the parent element containing the divs which are 
+    floated would collapse as it would have no any divs to contain.
+
+
+3. Use CLEAR in conjuction with float
+    As you alwyas use margin with padding or font-family with font-size, you 
+    must use float with clear! ALL THE TIME!
