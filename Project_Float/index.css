@@ -5,14 +5,16 @@
 
 .container {
   background: #3a4444;
-  /* padding: 20px; */
+  padding: 20px;
 }
 
 .box {
-  width: 20%;
+  width: calc(25% - 44px);
   border: 2px solid lightgray;
-  color: white;
-  padding: 10px;
+  color: #3a4444;
+  padding: 20px;
+  background: #e7e7df;
+  line-height: 1.4em;
 }
 
 .box h2 {
