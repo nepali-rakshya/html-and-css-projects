@@ -57,3 +57,38 @@ nav::before {
 }
 
 /* transform, transition */
+
+a {
+  text-decoration: none;
+  position: relative;
+  font-size: 2em;
+  padding: 5px;
+  background-color: #ffffff91;
+  border: 5px solid #ffffff91;
+}
+
+div.link {
+  position: absolute;
+  top: 363px;
+}
+
+a:link {
+  color: black;
+  font-weight: bolder;
+}
+
+a:visited {
+  background: rgb(53, 53, 53);
+  color: rgb(3, 3, 3);
+}
+
+a:hover {
+  border-radius: 25px;
+  background: rgb(53, 53, 53);
+  transition: border-radius 3s, background 4s;
+}
+
+a:active {
+  color: lightsalmon;
+  background: lightsalmon;
+}
