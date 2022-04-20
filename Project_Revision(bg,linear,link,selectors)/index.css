@@ -1,0 +1,44 @@
+/* navigation bar */
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 20px;
+  color: white;
+}
+
+/* main section */
+
+body {
+  background: black;
+}
+
+.main-section {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+div h1 {
+  font-size: 4em;
+}
+
+div p {
+  width: 80vw;
+  text-align: center;
+}
+
+/* background image */
+
+/* nav::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: url("./hello.jpg") center/cover no-repeat;
+  top: 0;
+  left: 0;
+  opacity: 0.3;
+  z-index: -1;
+} */
