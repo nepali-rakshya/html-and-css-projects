@@ -22,6 +22,10 @@ body {
 
 div h1 {
   font-size: 4em;
+  width: 55%;
+  background: #ffffff91;
+  padding: 3px 4px;
+  color: black;
 }
 
 div p {
@@ -31,7 +35,7 @@ div p {
 
 /* background image */
 
-/* nav::before {
+nav::before {
   content: "";
   position: absolute;
   width: 100%;
@@ -41,4 +45,15 @@ div p {
   left: 0;
   opacity: 0.3;
   z-index: -1;
-} */
+}
+
+/* linear gradient */
+
+.color {
+  width: 30vw;
+  height: 30vh;
+  margin: auto;
+  /* insert the link here */
+}
+
+/* transform, transition */
