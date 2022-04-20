@@ -23,9 +23,11 @@ body {
 div h1 {
   font-size: 4em;
   width: 55%;
-  background: #ffffff91;
+  background: rgb(94, 93, 93);
   padding: 3px 4px;
   color: black;
+  border-left: 10px solid lightslategrey;
+  border-right: 10px solid lightslategrey;
 }
 
 div p {
