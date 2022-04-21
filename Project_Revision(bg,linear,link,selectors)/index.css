@@ -92,6 +92,7 @@ a:visited {
 a:hover {
   border-radius: 25px;
   background: whitesmoke;
+  opacity: 0.6;
   transition: all 1s linear;
 }
 
