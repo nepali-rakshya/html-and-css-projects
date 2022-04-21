@@ -74,7 +74,7 @@ a {
 div.link {
   position: relative;
   top: 0;
-  animation: slide 10s 1;
+  animation: slide 4s 1;
   width: 200px;
   left: 43rem;
 }
@@ -100,16 +100,16 @@ a:active {
   background: lightsalmon;
 }
 
-/* animation */
+/* animation FOR LINK */
 
 @keyframes slide {
-  0% {
+  /* 0% {
     transform: translateX(-30vw);
   }
 
   10% {
     transform: translateX(30vw);
-  }
+  } */
 
   50% {
     transform: scale(0.5, 0.5);
@@ -119,11 +119,41 @@ a:active {
     transform: scale(1, 1);
   }
 
-  100% {
+  /* 100% {
     transform: translate(0, 0);
+  } */
+}
+
+/* animation FOR HR LINE */
+
+hr.line {
+  width: 50%;
+  margin: 30px auto;
+  border: 1px solid rgb(94, 93, 93);
+}
+
+hr#one {
+  animation: lineone 3s 1;
+}
+
+@keyframes lineone {
+  0% {
+    transform: translate(-20vw);
+  }
+  75% {
+    transform: translate(20vw);
   }
 }
 
-hr {
-  margin: 30px;
+hr#two {
+  animation: linetwo 3s 1;
+}
+
+@keyframes linetwo {
+  0% {
+    transform: translate(20vw);
+  }
+  75% {
+    transform: translate(-20vw);
+  }
 }
