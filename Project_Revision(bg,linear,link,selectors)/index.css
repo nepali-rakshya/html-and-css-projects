@@ -66,13 +66,17 @@ a {
   font-size: 2em;
   padding: 5px;
   background-color: rgb(94, 93, 93);
-  border-right: 5px solid lightslategrey;
-  border-left: 5px solid lightslategrey;
+  border-right: 10px solid lightslategrey;
+  border-left: 10px solid lightslategrey;
+  display: inline-block;
 }
 
 div.link {
-  position: absolute;
-  top: 363px;
+  position: relative;
+  top: 0;
+  animation: slide 10s 1;
+  width: 200px;
+  left: 43rem;
 }
 
 a:link {
@@ -88,7 +92,7 @@ a:visited {
 a:hover {
   border-radius: 25px;
   background: whitesmoke;
-  transition: border-radius 3s linear, background 4s linear, transform 1s linear;
+  transition: all 1s linear;
 }
 
 a:active {
@@ -97,3 +101,29 @@ a:active {
 }
 
 /* animation */
+
+@keyframes slide {
+  0% {
+    transform: translateX(-30vw);
+  }
+
+  10% {
+    transform: translateX(30vw);
+  }
+
+  50% {
+    transform: scale(0.5, 0.5);
+  }
+
+  75% {
+    transform: scale(1, 1);
+  }
+
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+hr {
+  margin: 30px;
+}
